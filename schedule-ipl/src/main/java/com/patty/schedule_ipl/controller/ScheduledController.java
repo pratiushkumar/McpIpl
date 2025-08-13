@@ -15,7 +15,7 @@ import java.util.List;
 public class ScheduledController {
     private final ScheduleService scheduleService;
 
-    @AutoWired
+@Autowired
     public ScheduledController(ScheduleService scheduleService) {
         this.scheduleService = scheduleService;
     }
